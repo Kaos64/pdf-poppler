@@ -1,6 +1,6 @@
 var tools = require('../lib/tools');
 
-tools.info(__dirname + '\\..\\in\\test.pdf', {'page': '3'})
+tools.page(__dirname + '\\..\\in\\test2.pdf', 1)
     .then(data => {
         console.log(data);
     })

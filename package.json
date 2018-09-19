@@ -26,5 +26,8 @@
     "electron"
   ],
   "author": "Khishigbaatar N. <kb@2xcoding.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^2.0.4"
+  }
 }
